@@ -4,7 +4,6 @@ pd.set_option("display.width", None)       # don't wrap columns
 
 df = pd.read_csv('vessel_calls.csv')
 print(df.head(10))
-print(df.describe())
 
 
 import pandas as pd
